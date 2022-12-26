@@ -25,7 +25,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-import /vendor/etc/init/hw/init.device.rc
 import /vendor/etc/init/hw/init.qcom.power.rc
 import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
@@ -38,7 +37,7 @@ on early-init
     chmod 0755 /sys/kernel/tracing
     chown system system /sys/kernel/debug
 
-  # create symlink for vendor mount points
+    # Create symlink for vendor mount points
     symlink /vendor/firmware_mnt /firmware
     symlink /vendor/bt_firmware /bt_firmware
     symlink /vendor/dsp /dsp
@@ -48,8 +47,6 @@ on early-init
 
     chown root system /dev/kmsg
     chmod 0620 /dev/kmsg
-    # Load WIGIG platform driver
-    # exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules msm_11ad_proxy
 
     # Workarround for cache
     rm /data/resource-cache
@@ -269,7 +266,6 @@ on post-fs-data
     #Create folder of camera
     mkdir /data/vendor/camera 0770 camera camera
 
-
     #Create directory for tftp
     mkdir /data/vendor/tombstones 0771 system system
     mkdir /data/vendor/tombstones/rfs 0771 system system
@@ -397,25 +393,6 @@ service nqnfcinfo /system/vendor/bin/nqnfcinfo
     group nfc
     user system
     oneshot
-
-service iop /system/vendor/bin/iop
-    class main
-    user root
-    group root
-    disabled
-    socket iop seqpacket 0666 root system
-
-on property:ro.vendor.iocgrp.config=1
-    mkdir /dev/blkio
-    mount cgroup none /dev/blkio blkio
-    chown system system /dev/blkio
-    chown system system /dev/blkio/tasks
-    chmod 0664 /dev/blkio/tasks
-    mkdir /dev/blkio/bg 0755 system system
-    chown system system /dev/blkio/bg/tasks
-    chmod 0664 /dev/blkio/bg/tasks
-    write /dev/blkio/blkio.weight 1000
-    write /dev/blkio/bg/blkio.weight 100
 
 on property:persist.vendor.sys.per_app_memcg=1
     setprop ro.config.per_app_memcg true
@@ -626,8 +603,6 @@ service qcom-post-boot /vendor/bin/init.qcom.post_boot.sh
 
 on property:sys.boot_completed=1
     start qcom-post-boot
-
-on property:ro.vendor.ril.mbn_copy_completed=1
     write /data/vendor/radio/copy_complete 1
 
 service vendor.atfwd /vendor/bin/ATFWD-daemon
