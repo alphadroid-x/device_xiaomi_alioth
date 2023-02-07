@@ -218,6 +218,7 @@ debug.egl.hw=0
 debug.gralloc.enable_fb_ubwc=1
 debug.mdpcomp.logs=0
 debug.sf.disable_backpressure=1
+debug.sf.enable_transaction_tracing=false
 debug.sf.frame_rate_multiple_threshold=120
 debug.sf.high_fps_early_gl_phase_offset_ns=-4000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
