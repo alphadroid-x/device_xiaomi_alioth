@@ -80,4 +80,8 @@
 
    <!-- Enable OWE (Enhanced open) for Wifi hotspot (SAP) -->
    <bool translatable="false" name="config_vendor_wifi_softap_owe_supported">true</bool>
+
+    <!-- Indicates that non-persistent MAC randomization is allowed on open networks that do not
+     use captive portals -->
+    <bool translatable="false" name="config_wifiAllowNonPersistentMacRandomizationOnOpenSsids">true</bool>
 </resources>
