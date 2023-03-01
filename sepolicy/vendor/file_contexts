@@ -113,3 +113,6 @@
 
 # Sensor
 /data/vendor/sensor_log(/.*)?                       u:object_r:vendor_sensors_vendor_data_file:s0
+
+# SDX55M tombstones
+/data/vendor/tombstones/SDX55M(/.*)?           u:object_r:mdm_tombstone_data_file:s0
