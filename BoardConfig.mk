@@ -116,6 +116,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r522817
+KERNEL_CC := CC=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-$(TARGET_KERNEL_CLANG_VERSION)/bin/clang
 TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/alioth
 KERNEL_LD := LD=ld.lld
