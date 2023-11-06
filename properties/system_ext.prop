@@ -28,3 +28,7 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 
 # Doze
 ro.sensor.pickup.lower.value=2
+
+# EGL - Blobcache configuration
+ro.egl.blobcache.multifile=true
+ro.egl.blobcache.multifile_limit=33554432
