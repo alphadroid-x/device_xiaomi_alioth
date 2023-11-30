@@ -8,6 +8,9 @@ audio.offload.buffer.size.kb=256
 audio.offload.gapless.enabled=true
 persist.audio.button_jack.profile=volume
 persist.audio.button_jack.switch=0
+persist.audio.fluence.speaker=true
+persist.audio.fluence.voicecall=true
+persist.audio.fluence.voicerec=false
 
 # Blur
 ro.launcher.blur.appLaunch=0
