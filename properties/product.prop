@@ -1,3 +1,6 @@
+# Cutout
+ro.support_hide_display_cutout=true
+
 # Gboard paddings
 # Keyboard height ratio and bottom padding in dp for portrait mode
 ro.com.google.ime.height_ratio=1.075
