@@ -172,12 +172,7 @@ PRODUCT_PACKAGES += \
     libbthost_if.vendor \
     libldacBT_abr \
     libldacBT_bco \
-    libldacBT_bco.vendor \
-    libldacBT_enc \
-    liblhdc \
-    liblhdcBT_dec \
-    liblhdcBT_enc \
-    liblhdcdec
+    libldacBT_enc
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
