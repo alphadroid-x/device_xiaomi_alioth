@@ -133,7 +133,6 @@ vendor.mm.enable.qcom_parser=16776951
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.disabled=false
-persist.sys.fflag.override.settings_bluetooth_hearing_aid=true
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac
 persist.vendor.bt.aac_frm_ctl.enabled=true
 persist.vendor.bt.aac_vbr_frm_ctl.enabled=true
@@ -141,7 +140,6 @@ persist.vendor.qcom.bluetooth.soc=hastings
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=hastings
-persist.bluetooth.sbc_hd_higher_bitrate=1
 persist.vendor.btstack.enable.lpa=true
 vendor.hw.fm.init=0
 
