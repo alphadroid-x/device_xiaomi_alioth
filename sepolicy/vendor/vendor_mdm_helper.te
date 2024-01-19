@@ -37,3 +37,6 @@ allow vendor_mdm_helper mdm_tombstone_data_file:dir create_dir_perms;
 allow vendor_mdm_helper mdm_tombstone_data_file:dir rw_dir_perms;
 allow vendor_mdm_helper mdm_tombstone_data_file:file create_file_perms;
 allow vendor_mdm_helper mdm_tombstone_data_file:file rw_file_perms;
+
+# Allow mdm_helper sys_admin capability
+allow vendor_mdm_helper self:capability { sys_admin };
