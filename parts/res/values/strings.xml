@@ -19,11 +19,6 @@
     <!-- FPS Counter -->
     <string name="fps_info_title">FPS Counter</string>
 
-    <!-- Per-app refresh rate -->
-    <string name="refresh_title">Refresh rate per-app</string>
-    <string name="refresh_summary">Set a specific refresh rate for each application</string>
-    <string name="refresh_default">Default</string>
-
     <!-- Thermal profiles -->
     <string name="thermal_title">Thermal profiles</string>
     <string name="thermal_summary">Per-app thermal and touchscreen profiles with game mode</string>
