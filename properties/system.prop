@@ -65,9 +65,6 @@ persist.vendor.ims.disableQXDMLogs=1
 vendor.iop.enable_prefetch_ofr=1
 vendor.iop.enable_uxe=0
 
-# LMK
-ro.config.low_ram=false
-
 # Marketname
 ro.product.mod_device=alioth_global
 
