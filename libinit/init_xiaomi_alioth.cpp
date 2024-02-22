@@ -26,7 +26,7 @@ static const variant_info_t alioth_global_info = {
     .hwc_value = "GLOBAL",
     .sku_value = "",
 
-    .name = "alioth_global",
+    .name = "alioth",
     .brand = "POCO",
     .device = "alioth",
     .marketname = "POCO F3",
