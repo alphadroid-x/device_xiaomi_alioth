@@ -1315,6 +1315,9 @@ vendor/etc/thermald-devices.conf
 vendor/bin/thermal-engine
 vendor/etc/init/init_thermal-engine.rc
 
+# SS Restart
+vendor/bin/ssr_setup
+
 # Thermal
 vendor/bin/mi_thermald
 vendor/etc/init/init.mi_thermald.rc
