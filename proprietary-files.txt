@@ -777,7 +777,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 vendor/app/IFAAService/IFAAService.apk
 
 # IMS (APK) - from patched source
-system_ext/priv-app/ims/ims.apk
+system_ext/priv-app/ims/ims.apk|4065a55b174bae19b10c5a23874d825f8cad358b
 
 # IMS
 system_ext/lib64/lib-imsvideocodec.so
