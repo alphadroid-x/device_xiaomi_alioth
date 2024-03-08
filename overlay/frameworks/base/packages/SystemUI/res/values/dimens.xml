@@ -46,6 +46,4 @@
     <!-- the padding on the top of the statusbar -->
     <dimen name="status_bar_padding_top">1px</dimen>
 
-    <!-- Maximum vertical offset of statusbar for burn-in protection -->
-    <dimen name="status_bar_offset_max_y">1.5dp</dimen>
 </resources>
