@@ -216,6 +216,10 @@ on boot
     chown root system /sys/module/migt/parameters/reset_clus_affinity_uidlist
     chmod 0664 /sys/module/migt/parameters/reset_clus_affinity_uidlist
 
+    # VPP tuning
+    chown system system /mnt/vendor/persist/vpp/tunings.txt
+    chmod 0666 /mnt/vendor/persist/vpp/tunings.txt
+
 on boot
     # FPS Info permissions
     chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
