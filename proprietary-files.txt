@@ -471,7 +471,7 @@ vendor/bin/batterysecret|e495988b7619cffccb8e834d3d7c75fecb12b524
 vendor/etc/init/init.batterysecret.rc|9abbe6fd82a0bd5b4499bfe141a5645e76e57606
 
 # CNE - MIUI
-vendor/app/CneApp/CneApp.apk|b7ff9a18c255a569431034ddd93624d8e46800ed
+vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|b7ff9a18c255a569431034ddd93624d8e46800ed
 vendor/bin/cnd|d6c37ea42f1df64283e6ce50408a1f7f64a56a1a
 vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
 vendor/etc/cne/profileMwqem.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
