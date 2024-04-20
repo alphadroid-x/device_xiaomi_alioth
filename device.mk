@@ -430,6 +430,7 @@ PRODUCT_PACKAGES += \
 
 # Power (Configs)
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/power/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 PRODUCT_SOONG_NAMESPACES += \
