@@ -1,4 +1,4 @@
-# Device proprietary files - from miui_ALIOTHGlobal_V14.0.8.0.TKHMIXM_4baed81b95_13.0 package, unless pinned
+# Device proprietary files - from miui_ALIOTHGlobal_OS1.0.2.0.TKHMIXM_b69e6a5400_13.0 package, unless pinned
 # phone1: Nothing/Spacewar/Spacewar:14/UP1A.231005.007/2401062238:user/release-keys
 
 # ACDB
@@ -786,8 +786,8 @@ vendor/lib64/libllvm-glnext.so|30639c5f2fa4545667134cb5231d205ad5eb8a41
 vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
 
 # HotwordEnrollment
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
@@ -795,7 +795,7 @@ system_ext/framework/com.android.hotwordenrollment.common.util.jar
 vendor/app/IFAAService/IFAAService.apk
 
 # IMS (APK) - from patched source
-system_ext/priv-app/ims/ims.apk|4065a55b174bae19b10c5a23874d825f8cad358b
+system_ext/priv-app/ims/ims.apk|47ec2b0ba01183146a3edb700e1c9f3945fbe077
 
 # IMS
 system_ext/lib64/lib-imsvideocodec.so
