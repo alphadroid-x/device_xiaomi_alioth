@@ -21,7 +21,7 @@
 
     <!-- Thermal profiles -->
     <string name="thermal_title">Thermal profiles</string>
-    <string name="thermal_summary">Per-app thermal and touchscreen profiles with game mode</string>
+    <string name="thermal_summary">Per-app thermal profiles</string>
     <string name="thermal_default">Default</string>
     <string name="thermal_benchmark">Benchmark</string>
     <string name="thermal_browser">Browser</string>
