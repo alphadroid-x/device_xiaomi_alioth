@@ -174,9 +174,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth Library Deps
 PRODUCT_PACKAGES += \
     libbluetooth_audio_session \
-    libbthost_if.vendor \
     libldacBT_abr \
-    libldacBT_bco \
     libldacBT_enc
 
 # Boot animation
