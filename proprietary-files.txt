@@ -730,7 +730,7 @@ vendor/firmware/a650_zap.b02|270bae014df75a913c6c124155f2cc85706258e6
 vendor/firmware/a650_zap.elf|24b2c14cea15c76ebc74441749be6c2dfbf596b1
 vendor/firmware/a650_zap.mdt|9675f939f9922c2043bd48494c3459ba79ecc740
 
-# Graphics - from phone1
+# Graphics - from LA.UM.9.14.r1-24700-LAHAINA.QSSI15.0
 vendor/gpu/kbc/sequence_manifest.bin|cc050a8058904871b3cfabec74521d42f0a61a1f
 vendor/gpu/kbc/unified_kbcs_32.bin|503228f87adc71131aa8134659b00dffe073e973
 vendor/gpu/kbc/unified_kbcs_64.bin|d63c26959dc02b2efc251953e99dc6e7c32e7f6e
